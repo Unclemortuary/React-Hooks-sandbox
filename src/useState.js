@@ -10,7 +10,7 @@ const getThemeState = () => {
   return 'blue';
 }
 
-function useStateExample() {
+function UseStateExample() {
   // if you pass function to useState like this it will always recall it with each component's render
   const [ count, setCount ] = useState(getCountState());
 
@@ -52,4 +52,4 @@ function useStateExample() {
   );
 }
 
-export default useStateExample;
+export default UseStateExample;
