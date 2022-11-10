@@ -2,6 +2,7 @@ import React from 'react';
 
 import UseStateExample from './useState';
 import UseEffectExapmle from './useEffect';
+import UseContextExample from './useContext/useContextAdvanced';
 
 const App = () => (
   <div>
@@ -9,6 +10,8 @@ const App = () => (
     <UseStateExample/>
     <h1>useEffect</h1>
     <UseEffectExapmle/>
+    <h1>useContext</h1>
+    <UseContextExample/>
   </div>
 );
 
