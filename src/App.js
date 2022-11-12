@@ -3,6 +3,7 @@ import React from 'react';
 import UseStateExample from './useState';
 import UseEffectExapmle from './useEffect';
 import UseContextExample from './useContext/useContextAdvanced';
+import UseRefExample from './useRef';
 
 const App = () => (
   <div>
@@ -12,6 +13,8 @@ const App = () => (
     <UseEffectExapmle/>
     <h1>useContext</h1>
     <UseContextExample/>
+    <h1>useRef</h1>
+    <UseRefExample/>
   </div>
 );
 
