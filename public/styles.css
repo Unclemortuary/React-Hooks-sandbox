@@ -1,0 +1,17 @@
+.contentContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+.navigation {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.backButton {
+    margin-bottom: 15px;
+}
