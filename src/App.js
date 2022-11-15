@@ -5,13 +5,15 @@ import UseEffectExapmle from './useEffect';
 import UseContextExample from './useContext/useContextAdvanced';
 import UseRefExample from './useRef';
 import UseMemoExample from './useMemo';
+import UseCallbackExample from './useCallback';
 
 const topicsMap = {
   useState: UseStateExample,
   useEffect: UseEffectExapmle,
   useContext: UseContextExample,
   useRef: UseRefExample,
-  useMemo: UseMemoExample
+  useMemo: UseMemoExample,
+  useCallback: UseCallbackExample
 };
 
 const App = () => {
