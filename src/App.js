@@ -1,19 +1,21 @@
 import React, { useState } from 'react';
 
 import UseStateExample from './useState';
-import UseEffectExapmle from './useEffect';
+import UseEffectExample from './useEffect';
 import UseContextExample from './useContext/useContextAdvanced';
 import UseRefExample from './useRef';
 import UseMemoExample from './useMemo';
 import UseCallbackExample from './useCallback';
+import UseReducerExample from './useReducer';
 
 const topicsMap = {
   useState: UseStateExample,
-  useEffect: UseEffectExapmle,
+  useEffect: UseEffectExample,
   useContext: UseContextExample,
   useRef: UseRefExample,
   useMemo: UseMemoExample,
-  useCallback: UseCallbackExample
+  useCallback: UseCallbackExample,
+  useReducer: UseReducerExample
 };
 
 const App = () => {
