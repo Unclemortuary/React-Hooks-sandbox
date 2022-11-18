@@ -7,6 +7,7 @@ import UseRefExample from './useRef';
 import UseMemoExample from './useMemo';
 import UseCallbackExample from './useCallback';
 import UseReducerExample from './useReducer';
+import UseTransitionExample from './useTransition';
 
 const topicsMap = {
   useState: UseStateExample,
@@ -15,7 +16,8 @@ const topicsMap = {
   useRef: UseRefExample,
   useMemo: UseMemoExample,
   useCallback: UseCallbackExample,
-  useReducer: UseReducerExample
+  useReducer: UseReducerExample,
+  useTransition: UseTransitionExample
 };
 
 const App = () => {
