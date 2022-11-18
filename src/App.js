@@ -9,6 +9,7 @@ import UseCallbackExample from './useCallback';
 import UseReducerExample from './useReducer';
 import UseTransitionExample from './useTransition';
 import UseDeferredValueExample from './useDeferredValue';
+import UseLayoutEffectExample from './useLayoutEffect';
 
 const topicsMap = {
   useState: UseStateExample,
@@ -19,7 +20,8 @@ const topicsMap = {
   useCallback: UseCallbackExample,
   useReducer: UseReducerExample,
   useTransition: UseTransitionExample,
-  useDeferredValue: UseDeferredValueExample
+  useDeferredValue: UseDeferredValueExample,
+  useLayoutEffect: UseLayoutEffectExample
 };
 
 const App = () => {
