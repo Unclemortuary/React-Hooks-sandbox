@@ -8,6 +8,7 @@ import UseMemoExample from './useMemo';
 import UseCallbackExample from './useCallback';
 import UseReducerExample from './useReducer';
 import UseTransitionExample from './useTransition';
+import UseDeferredValueExample from './useDeferredValue';
 
 const topicsMap = {
   useState: UseStateExample,
@@ -17,7 +18,8 @@ const topicsMap = {
   useMemo: UseMemoExample,
   useCallback: UseCallbackExample,
   useReducer: UseReducerExample,
-  useTransition: UseTransitionExample
+  useTransition: UseTransitionExample,
+  useDeferredValue: UseDeferredValueExample
 };
 
 const App = () => {
