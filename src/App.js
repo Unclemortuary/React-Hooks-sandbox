@@ -11,6 +11,7 @@ import UseTransitionExample from './useTransition';
 import UseDeferredValueExample from './useDeferredValue';
 import UseLayoutEffectExample from './useLayoutEffect';
 import UseImperativeHandle from './useImperativeHandle';
+import UseIdExample from './useId';
 
 const topicsMap = {
   useState: UseStateExample,
@@ -23,7 +24,8 @@ const topicsMap = {
   useTransition: UseTransitionExample,
   useDeferredValue: UseDeferredValueExample,
   useLayoutEffect: UseLayoutEffectExample,
-  useImperativeHandle: UseImperativeHandle
+  useImperativeHandle: UseImperativeHandle,
+  useId: UseIdExample
 };
 
 const App = () => {

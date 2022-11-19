@@ -8,6 +8,8 @@ const Popup = forwardRef((props, ref) => {
     const yes = useRef();
     const no = useRef();
 
+    // this hook connects ref which came from forwardRef and assigns it to object in second parameter
+    // third parameter is a dependency array which tells wether this object should be recreated
     useImperativeHandle(ref, () => ({ close: close.current, yes: yes.current, no: no.current }));
 
     return (
