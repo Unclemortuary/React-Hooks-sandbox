@@ -10,6 +10,7 @@ import UseReducerExample from './useReducer';
 import UseTransitionExample from './useTransition';
 import UseDeferredValueExample from './useDeferredValue';
 import UseLayoutEffectExample from './useLayoutEffect';
+import UseImperativeHandle from './useImperativeHandle';
 
 const topicsMap = {
   useState: UseStateExample,
@@ -21,7 +22,8 @@ const topicsMap = {
   useReducer: UseReducerExample,
   useTransition: UseTransitionExample,
   useDeferredValue: UseDeferredValueExample,
-  useLayoutEffect: UseLayoutEffectExample
+  useLayoutEffect: UseLayoutEffectExample,
+  useImperativeHandle: UseImperativeHandle
 };
 
 const App = () => {
