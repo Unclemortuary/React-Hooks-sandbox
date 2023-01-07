@@ -12,6 +12,7 @@ import UseDeferredValueExample from './useDeferredValue';
 import UseLayoutEffectExample from './useLayoutEffect';
 import UseImperativeHandle from './useImperativeHandle';
 import UseIdExample from './useId';
+import UseLocalStorageExample from './custom/useLocalStorage';
 
 const topicsMap = {
   useState: UseStateExample,
@@ -25,7 +26,8 @@ const topicsMap = {
   useDeferredValue: UseDeferredValueExample,
   useLayoutEffect: UseLayoutEffectExample,
   useImperativeHandle: UseImperativeHandle,
-  useId: UseIdExample
+  useId: UseIdExample,
+  useLocalStorage: UseLocalStorageExample
 };
 
 const App = () => {
