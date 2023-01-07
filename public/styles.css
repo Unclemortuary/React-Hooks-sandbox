@@ -1,0 +1,68 @@
+.contentContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+.navigation {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.backButton {
+    margin-bottom: 15px;
+}
+
+.modal {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    width: 75%;
+    border-radius: 15px;
+    border-color: greenyellow;
+    border-width: 2px;
+    border-style: solid;
+}
+
+.modal p {
+    text-align: center;
+}
+
+.modal div {
+    display: flex;
+    justify-content: center;    
+}
+
+.modal button {
+    margin: 10px;
+    padding: 5px;
+    border-width: 0;
+    border-radius: 3px;
+}
+
+.modal .closeButton {
+    position: absolute;
+    width: 25px;
+    top: 4px;
+    right: 5px;
+    margin: 5px;
+    margin-bottom: 10px;
+    border-radius: 100%;
+}
+
+.yesButton {
+    background-color: lightgreen;
+}
+
+.noButton {
+    background-color: lightcoral;
+}
+
+.modal button:focus,
+       button:active {
+    outline: 2px solid blue;
+}
