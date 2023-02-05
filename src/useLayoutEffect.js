@@ -1,4 +1,4 @@
-// useLayoutEffect works exactly yhe same as useEffect 
+// useLayoutEffect works exactly the same as useEffect
 // except that all executions inside of it are SYNCHRONOUS
 // 
 // Use this hook when you need manipulate the DOM (i.e. LAYOUT) after component's render

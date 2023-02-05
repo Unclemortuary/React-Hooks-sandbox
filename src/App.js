@@ -14,6 +14,7 @@ import UseImperativeHandle from './useImperativeHandle';
 import UseIdExample from './useId';
 import UseLocalStorageExample from './custom/useLocalStorage';
 import UseToggleExample from './custom/useToggle';
+import UseTimeoutExample from './custom/useTimeout';
 
 const topicsMap = {
   useState: UseStateExample,
@@ -29,7 +30,8 @@ const topicsMap = {
   useImperativeHandle: UseImperativeHandle,
   useId: UseIdExample,
   useLocalStorage: UseLocalStorageExample,
-  useToggle: UseToggleExample
+  useToggle: UseToggleExample,
+  useTimeout: UseTimeoutExample
 };
 
 const App = () => {
